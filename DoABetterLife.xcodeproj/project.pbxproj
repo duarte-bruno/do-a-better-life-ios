@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		75482ED62D0A2EC7007AD4D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75482EBD2D0A2EC6007AD4D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75482EC42D0A2EC6007AD4D8;
+			remoteInfo = DoABetterLife;
+		};
+		75482EE02D0A2EC7007AD4D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75482EBD2D0A2EC6007AD4D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75482EC42D0A2EC6007AD4D8;
+			remoteInfo = DoABetterLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75482EC52D0A2EC6007AD4D8 /* DoABetterLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoABetterLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75482ED52D0A2EC7007AD4D8 /* DoABetterLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoABetterLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75482EDF2D0A2EC7007AD4D8 /* DoABetterLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoABetterLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		75482EC72D0A2EC6007AD4D8 /* DoABetterLife */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DoABetterLife;
+			sourceTree = "<group>";
+		};
+		75482ED82D0A2EC7007AD4D8 /* DoABetterLifeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DoABetterLifeTests;
+			sourceTree = "<group>";
+		};
+		75482EE22D0A2EC7007AD4D8 /* DoABetterLifeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DoABetterLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75482EC22D0A2EC6007AD4D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75482ED22D0A2EC7007AD4D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75482EDC2D0A2EC7007AD4D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75482EBC2D0A2EC6007AD4D8 = {
+			isa = PBXGroup;
+			children = (
+				75482EC72D0A2EC6007AD4D8 /* DoABetterLife */,
+				75482ED82D0A2EC7007AD4D8 /* DoABetterLifeTests */,
+				75482EE22D0A2EC7007AD4D8 /* DoABetterLifeUITests */,
+				75482EC62D0A2EC6007AD4D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75482EC62D0A2EC6007AD4D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75482EC52D0A2EC6007AD4D8 /* DoABetterLife.app */,
+				75482ED52D0A2EC7007AD4D8 /* DoABetterLifeTests.xctest */,
+				75482EDF2D0A2EC7007AD4D8 /* DoABetterLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75482EC42D0A2EC6007AD4D8 /* DoABetterLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75482EE92D0A2EC7007AD4D8 /* Build configuration list for PBXNativeTarget "DoABetterLife" */;
+			buildPhases = (
+				75482EC12D0A2EC6007AD4D8 /* Sources */,
+				75482EC22D0A2EC6007AD4D8 /* Frameworks */,
+				75482EC32D0A2EC6007AD4D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				75482EC72D0A2EC6007AD4D8 /* DoABetterLife */,
+			);
+			name = DoABetterLife;
+			packageProductDependencies = (
+			);
+			productName = DoABetterLife;
+			productReference = 75482EC52D0A2EC6007AD4D8 /* DoABetterLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75482ED42D0A2EC7007AD4D8 /* DoABetterLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75482EEC2D0A2EC7007AD4D8 /* Build configuration list for PBXNativeTarget "DoABetterLifeTests" */;
+			buildPhases = (
+				75482ED12D0A2EC7007AD4D8 /* Sources */,
+				75482ED22D0A2EC7007AD4D8 /* Frameworks */,
+				75482ED32D0A2EC7007AD4D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75482ED72D0A2EC7007AD4D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				75482ED82D0A2EC7007AD4D8 /* DoABetterLifeTests */,
+			);
+			name = DoABetterLifeTests;
+			packageProductDependencies = (
+			);
+			productName = DoABetterLifeTests;
+			productReference = 75482ED52D0A2EC7007AD4D8 /* DoABetterLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75482EDE2D0A2EC7007AD4D8 /* DoABetterLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75482EEF2D0A2EC7007AD4D8 /* Build configuration list for PBXNativeTarget "DoABetterLifeUITests" */;
+			buildPhases = (
+				75482EDB2D0A2EC7007AD4D8 /* Sources */,
+				75482EDC2D0A2EC7007AD4D8 /* Frameworks */,
+				75482EDD2D0A2EC7007AD4D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75482EE12D0A2EC7007AD4D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				75482EE22D0A2EC7007AD4D8 /* DoABetterLifeUITests */,
+			);
+			name = DoABetterLifeUITests;
+			packageProductDependencies = (
+			);
+			productName = DoABetterLifeUITests;
+			productReference = 75482EDF2D0A2EC7007AD4D8 /* DoABetterLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75482EBD2D0A2EC6007AD4D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					75482EC42D0A2EC6007AD4D8 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					75482ED42D0A2EC7007AD4D8 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 75482EC42D0A2EC6007AD4D8;
+					};
+					75482EDE2D0A2EC7007AD4D8 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 75482EC42D0A2EC6007AD4D8;
+					};
+				};
+			};
+			buildConfigurationList = 75482EC02D0A2EC6007AD4D8 /* Build configuration list for PBXProject "DoABetterLife" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75482EBC2D0A2EC6007AD4D8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 75482EC62D0A2EC6007AD4D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75482EC42D0A2EC6007AD4D8 /* DoABetterLife */,
+				75482ED42D0A2EC7007AD4D8 /* DoABetterLifeTests */,
+				75482EDE2D0A2EC7007AD4D8 /* DoABetterLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75482EC32D0A2EC6007AD4D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75482ED32D0A2EC7007AD4D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75482EDD2D0A2EC7007AD4D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75482EC12D0A2EC6007AD4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75482ED12D0A2EC7007AD4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75482EDB2D0A2EC7007AD4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75482ED72D0A2EC7007AD4D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75482EC42D0A2EC6007AD4D8 /* DoABetterLife */;
+			targetProxy = 75482ED62D0A2EC7007AD4D8 /* PBXContainerItemProxy */;
+		};
+		75482EE12D0A2EC7007AD4D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75482EC42D0A2EC6007AD4D8 /* DoABetterLife */;
+			targetProxy = 75482EE02D0A2EC7007AD4D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75482EE72D0A2EC7007AD4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75482EE82D0A2EC7007AD4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75482EEA2D0A2EC7007AD4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DoABetterLife/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KR33X63ZD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DuarteBruno.DoABetterLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		75482EEB2D0A2EC7007AD4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DoABetterLife/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KR33X63ZD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DuarteBruno.DoABetterLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		75482EED2D0A2EC7007AD4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KR33X63ZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DuarteBruno.DoABetterLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoABetterLife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoABetterLife";
+			};
+			name = Debug;
+		};
+		75482EEE2D0A2EC7007AD4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KR33X63ZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DuarteBruno.DoABetterLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoABetterLife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoABetterLife";
+			};
+			name = Release;
+		};
+		75482EF02D0A2EC7007AD4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KR33X63ZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DuarteBruno.DoABetterLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoABetterLife;
+			};
+			name = Debug;
+		};
+		75482EF12D0A2EC7007AD4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KR33X63ZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DuarteBruno.DoABetterLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoABetterLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75482EC02D0A2EC6007AD4D8 /* Build configuration list for PBXProject "DoABetterLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75482EE72D0A2EC7007AD4D8 /* Debug */,
+				75482EE82D0A2EC7007AD4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75482EE92D0A2EC7007AD4D8 /* Build configuration list for PBXNativeTarget "DoABetterLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75482EEA2D0A2EC7007AD4D8 /* Debug */,
+				75482EEB2D0A2EC7007AD4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75482EEC2D0A2EC7007AD4D8 /* Build configuration list for PBXNativeTarget "DoABetterLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75482EED2D0A2EC7007AD4D8 /* Debug */,
+				75482EEE2D0A2EC7007AD4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75482EEF2D0A2EC7007AD4D8 /* Build configuration list for PBXNativeTarget "DoABetterLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75482EF02D0A2EC7007AD4D8 /* Debug */,
+				75482EF12D0A2EC7007AD4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75482EBD2D0A2EC6007AD4D8 /* Project object */;
+}
